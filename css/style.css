@@ -1,0 +1,700 @@
+body{
+    font-family:arial;
+    font-style: BOLD;
+    font-size:14px;
+    color:grey;
+    background: #7ae67a;
+    margin: 0px;
+}
+
+#garis {
+    border: 1px solid;
+}
+
+#container {
+    width: 1125px;
+    height: auto;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+#container #header {
+    margin-top: 20px;
+}
+
+#container #header #menu {
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #e67a7a;
+    padding: 6px 10px;
+    overflow: hidden;
+    padding-bottom: 9px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.button-search {
+    position: relative;
+    top: 8px;
+    left: -6px;
+    border: none;
+}
+
+#container #header #menu #user {
+    float: left;
+    color: white;
+}
+
+#container #header #menu #user a {
+    color: white;
+    padding-right: 5px;
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#container #header #menu #button-keranjang {
+    float: right;
+    background: orange;
+    padding: 4px 10px;
+    border-radius: 3px;
+    margin-top: 9px;
+    margin-right: 9px;
+}
+
+#container #header #menu #button-keranjang img {
+    vertical-align: bottom;
+}
+
+.h4-contentslider {
+    color: azure;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -35px 0px 10px 0px;
+}
+
+.h5-link {
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 734px;
+    position: relative;
+    bottom: 65px;
+    text-decoration: none;
+}
+
+.h5-link:hover {
+    color:#E67A78;
+    cursor: pointer;
+}
+
+#container #footer {
+    background: #E67A78;
+    padding: 10px;
+}
+
+#container #footer1 {
+    background: #e67a7a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#container #footer1 p {
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0px;
+}
+
+#container #footer p {
+    color: white;
+    text-align: right;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0px;
+    display : inline-block;
+    
+}
+
+#container #content {
+    padding: 10px 0px;
+    overflow: hidden;
+}
+
+#container-user-akses {
+    width: 350px;
+    height: auto;
+    margin: 50px auto;
+}
+
+.element-form {
+    margin-bottom: 15px;
+}
+
+.element-form label {
+    display: block;
+    font-weight: bold;
+    color: gray;
+}
+
+.element-form span {
+    display: block;
+}
+
+.element-form span input[type="text"],
+.element-form span input[type="password"],
+.element-form span textarea,
+.element-form span select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.element-form span input[type="submit"] {
+    background: #e67a7a;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 3px;
+    font-size: 9px;
+    cursor: pointer;
+}
+
+.element-form span input[type="submit"]:hover {
+    background:grey;
+
+}
+
+.notif{
+    background: #e67a7a;
+    color:white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+#bg-page-profile {
+    overflow: hidden;
+}
+
+#menu-profile {
+    background: #e67a7a;
+    width: 245px;
+    float: left;
+}
+
+#menu-profile ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#menu-profile ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+#menu-profile ul li a:hover,
+#menu-profile ul li a.active {
+    background:grey;
+}
+
+#profile-content {
+    float: left;
+    width: 860px;
+    padding: 10px;
+    background: white;
+}
+
+.table-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-list tr {
+    border-bottom: 1px solid #e67a7a;
+}
+
+.table-list tr.baris-title {
+    background: #E6E6E6;
+}
+
+
+.table-list tr th,
+.table-list tr td {
+    padding: 14px 4px;
+}
+
+.kolom-nomor {
+    width: 20px;
+    text-align: center;
+}
+
+.kiri {
+    text-align: left;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.kanan {
+    text-align: right;
+}
+
+#frame-tambah {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+
+
+.tombol-action {
+    background: #e67a7a;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    display: -webkit-inline-box;
+    margin-bottom: 3px;
+    font-size: 11px;
+}
+
+.tombol-action:hover {
+    background:grey;
+}
+
+#kiri {
+    width: 245px;
+    height: auto;
+    float: left;
+}
+
+#menu-kategori ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu-kategori ul li {
+    margin-bottom: 5px;
+}
+
+#menu-kategori ul li a {
+    display: block;
+    padding: 10px;
+    background: white;
+    color: #7ae67a;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#menu-kategori ul li a:hover,
+#menu-kategori ul li a.active {
+    background: #e8e8e8;
+}
+
+#menu-kategori ul li a:hover {
+    background: #e8e8e8;
+}
+
+#kanan {
+    width: 840px;
+    margin-left: 15px;
+    height: auto;
+    float: left;
+}
+
+#kanan #frame-barang ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#kanan #frame-barang ul li {
+    width: 240px;
+    background: white;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    float: left;
+    border-radius: 10px;
+}
+
+#kanan #frame-barang ul li .price {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: unset;
+    display: inline-block;
+}
+
+#kanan #frame-barang ul li .brand {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#kanan #frame-barang ul li a img {
+    display: block;
+    width: 240px;
+    height: 204px;
+}
+
+#kanan #frame-barang ul li .keterangan-gambar {
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 17px 0px 32px 0px;
+    height: 50px;
+}
+
+#kanan #frame-barang ul li .keterangan-gambar p {
+    text-align: center;
+    margin: 5px 0px;
+}
+
+#kanan #frame-barang ul li .keterangan-gambar p a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#kanan #frame-barang ul li .keterangan-gambar span {
+    display: block;
+    text-align: center;
+}
+
+#kanan #frame-barang ul li .button-add-cart {
+    text-align: center;
+}
+
+#kanan #frame-barang ul li .button-add-cart a {
+    background: #e67a7a;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+#kanan #frame-barang ul li .button-add-cart a:hover {
+    background:grey;
+}
+
+#detail-barang {
+    background: white;
+    padding: 15px;
+}
+
+#detail-barang h2 {
+    margin-top: 0px;
+}
+
+#detail-barang #frame-gambar {
+    background: #FBFBFB;
+    padding: 20px;
+}
+
+#detail-barang #frame-gambar img {
+    display: block;
+    margin: 0px auto;
+    width: 500px;
+    height: 400px;
+}
+
+#detail-barang #frame-harga {
+    margin: 15px 0px;
+}
+
+#detail-barang #frame-harga span {
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+}
+
+#detail-barang #frame-harga a {
+    background: #e67a7a;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: inline-block;
+    /* float: auto; */
+    border-radius: 3px;
+}
+
+#detail-barang #frame-harga a:hover {
+    background:grey;
+}
+
+#detail-barang #keterangan {
+    margin: 20px 0px;
+}
+
+.total-barang {
+    color: white;
+    text-decoration: none;
+    font-size: 7px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.update-quantity {
+    width: 30px;
+    text-align: center;
+}
+
+
+
+.kanan.hapus_item {
+    position: relative;
+}
+
+.kanan.hapus_item a {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-decoration: none;
+    color: #e67a7a;
+}
+
+#frame-button-keranjang a {
+    background: #e67a7a;
+    color: white;
+    text-decoration: none;
+    padding: 7px 20px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#lanjut-belanja {
+    float: left;
+}
+
+#lanjut-pemesanan {
+    float: right;
+}
+
+#frame-data-pengiriman {
+    float: left;
+    width: 500px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#frame-data-detail {
+    float: left;
+    width: 560px;
+}
+
+#frame-detail-order {
+    border: 1px solid grey;
+}
+
+#frame-form-pengiriman {
+    border: 1px solid grey;
+    padding: 25px;
+}
+
+h3.label-data-pengiriman {
+    border: 1px solid grey;
+    padding: 10px 7px;
+    margin: 0px;
+}
+
+ul.pagination {
+    margin: 10px 0px 0px 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+ul.pagination li {
+    float: left;
+}
+
+ul.pagination li a {
+    margin-right: 10px;
+    border: 1px solid #e67a7a;
+    padding: 5px 7px;
+    text-decoration: none;
+    display: block;
+}
+
+ul.pagination li a:hover {
+    font-weight:bold;
+}
+
+ul.pagination li a.active {
+    background: #e67a7a;
+    color: white;
+}
+
+#frame-tambah #left {
+    float: left;
+}
+
+#frame-tambah #right {
+    float: right;
+}
+
+.label-password {
+    display: flex;
+    justify-content: space-between;
+}
+
+#kanan #frame-barang ul li .priced {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: unset;
+    color: #dd1212;
+}
+
+a.submit-my-profile {
+    color: white;
+    text-decoration: none;
+    background: #e67a7a;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.swal-overlay {
+    background-color: rgba(43, 165, 137, 0.45);
+    
+  }
+
+.swal-button {
+    padding: 7px 19px;
+    border-radius: 2px;
+    background-color: #e67a7a;
+    font-size: 12px;
+    border: 1px solid #08a148;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+  }
+
+/* Style untuk Banner Branded */
+
+/* .banner_branded {
+   margin: 25px 0px;   
+} */
+
+
+.banner_branded ul {
+ list-style: none outside none;
+ padding-left: 0;
+ margin: 0;
+}
+
+.banner_branded .item {
+ margin-bottom: 50px;
+}
+
+.content-slider li {
+ /* background-color: #ed3020; */
+ text-align: center;
+ color: #FFF;
+ border: 1px solid #e0e0e0;
+}
+
+.content-slider img {
+ margin: 0;
+ height: 10rem;
+ width: 100%;
+ /* max-width: 100%; */
+ display: block;
+}
+
+
+
+/* .banner_branded {
+/* width: 850px; */
+ /* margin: auto;
+ width: 50%; */
+
+/* Style untuk diskon */
+.diskon {
+font-size: 15px;
+font-weight: bold;
+text-align: left;
+margin-top: unset;
+}
+.diskon span {
+color: #08a148;
+font-size: 15px;
+font-weight: bold;
+text-align: left;
+margin-top: unset;
+}
+
+/* Jendela Pop Up */
+#popup {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.7);
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	visibility: hidden;
+}
+
+.window {
+	width: 200px;
+	height: 230px;
+	background: #fff;
+	border-radius: 10px;
+	position: relative;
+	padding: 10px 20px;
+	margin: 15% auto;
+}
+.windowStok {
+	width: 200px;
+	height: 250px;
+	background: #fff;
+	border-radius: 10px;
+	position: relative;
+	padding: 10px 20px;
+	margin: 15% auto;
+}
+.window h2 {
+	margin: 30px 0 0 0;
+}
+/* Button Close */
+.close-button {
+	width: 11%;
+	height: 13%;
+	line-height: 28px;
+	background: #e67a7a;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	display: block;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	position: absolute;
+	top: -10px;
+	right: -10px;	
+}
+
+/* Memunculkan Jendela Pop Up*/
+#popup:target {
+	visibility: visible;
+}
+
+/* Menghilangkan icon panah pada input tipe number */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

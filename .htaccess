@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteRule ^([^/]*)\.html$ index.php?page=$1 [L]
+
+RewriteRule ^([^/]*)/([^/]*)\.html$ index.php?kategori_id=$1&kategori=$2 [L]
+
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)\.html$ index.php?barang_id=$1&page=detail&barang=$3 [L]
